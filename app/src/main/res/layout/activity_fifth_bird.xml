@@ -38,12 +38,13 @@
 
     <TextView
         android:id="@+id/textView5"
+        style="@style/birds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/aloso"
-        style="@style/birds"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="673dp" />
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
